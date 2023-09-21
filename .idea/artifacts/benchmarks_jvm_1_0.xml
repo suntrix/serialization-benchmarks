@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="benchmarks-jvm-1.0">
+    <output-path>$PROJECT_DIR$/benchmarks/build/libs</output-path>
+    <root id="archive" name="benchmarks-jvm-1.0.jar">
+      <element id="module-output" name="serialization-benchmarks.benchmarks.jvmMain" />
+    </root>
+  </artifact>
+</component>
