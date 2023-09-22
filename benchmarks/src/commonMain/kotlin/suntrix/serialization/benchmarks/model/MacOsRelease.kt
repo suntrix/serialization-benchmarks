@@ -9,12 +9,12 @@ data class MacOsRelease(
     val version: String,
     val darwin: String,
     @SerialName("release_date") val releaseDate: String,
-    val architectures: List<String>
+    val architectures: List<Architecture>
 )
 
-//enum class Architecture {
-//    arm64,
-//    ppc,
-//    x86,
-//    x86_64
-//}
+enum class Architecture {
+    arm64,
+    ppc,
+    x86,
+    x86_64
+}
